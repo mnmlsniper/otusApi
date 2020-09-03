@@ -1,0 +1,28 @@
+{
+  "name": "otusapi",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "axios": "^0.20.0",
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --config jest.config.local.js --colors --testTimeout=50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmlsniper/otusApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnmlsniper/otusApi/issues"
+  },
+  "homepage": "https://github.com/mnmlsniper/otusApi#readme"
+}
