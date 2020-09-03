@@ -3,7 +3,8 @@ import axios from 'axios';
 jest.setTimeout(50000);
 
 describe('demo', () => {
-    test('demo get', async () => {
-        expect(1+1).toBe(2);
+    test('demo get nasa site', async () => {
+        const r = await axios.get('https://api.nasa.gov/');
+        expect(r.status).toBe(200);
     });
 });
